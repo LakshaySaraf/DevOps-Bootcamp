@@ -1,0 +1,64 @@
+10th March 2025 - Monday
+
+
+AWS - 
+1.Getting Machine from AWS
+2.Installing All software in server.
+3.Use either private or public cloude.
+4.Getting code clone and create build of that code over server machine.
+5.All things are happen in Linux only.
+
+******Whole DevOps Work - [Linux,git,Maven(use to create build),other dependecies,AWS]****************
+
+Jenkins : Run code on Multiple server, Clone the code and build that code and deploy.
+
+In b/w servers there are load balancers.That handles routing and all stuffs.So for that call is going on which server and all.
+
+Team = Developer + Testing + DevOps.
+
+Q-1. What is DevOps?
+Ans :   
+
+
+****30 days Bootcamp -- Roadmap*********
+1.What is DevOps*
+2.DevOps Life Cycle*
+3.SDLC
+4.Agile*
+5.Linux*
+6.Shell Scripting*
+7.Maven*
+8.Git
+9.Jenkins*
+10.Ansible
+11.Nexus
+12.Docker*
+13.Kubernates
+14.Grafane
+15.ELK Stack
+16.Terraform
+
+AWS(Amazon Cloud Services).
+1.Intro*
+2.EC2*
+3.AZ*
+4.IAM*
+5.Network & Security
+6.EBS* 
+7.VPC
+8.ELB
+9.Route 53
+10.Cloud Watch
+11.iAM
+12.Cloud formation
+13.Amazon S3
+14.SES
+15.Lambdas
+16.SQS
+17.SNS
+18.Elastic Bean Stalk
+
+Interview Guide.
+
+
+<!-- Practice of Linux is willing to go on AWS server -->
