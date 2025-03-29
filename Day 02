@@ -1,0 +1,95 @@
+Starting Linux Today
+Config linux in system
+
+How to use linux environment
+1.Online.
+2.EC2-AWS
+3.VM - Setup Ubuntu
+4.WSL -feature of windows to allow to use ubuntu in Windows - Its feature of windows.
+    --(Download it in windows using cmd and type [wsl --install] command)
+
+
+Steps to config linux in windows
+1.Goto windows search-bar and type turn.
+2.Click Turn windows feature on/off
+3.scroll down and find for (windows sub-system for linux)--click this
+4.select windows system for linux
+5.Also select Hyper-V & click on ok, now your system will restart.
+6.open cmd and run these below commands.
+    wsl --install           -feature of windows to run linux on windows.
+after installing this add username and password as ubuntu.
+
+Now check ubuntu is present and will apears in your computer.
+
+What is Ubuntu?
+    It is Operating System, development in 1960.If we use it using VM it also provides us GUI.
+
+Features of Linux
+    Multiuser operating system
+    super secure.
+
+Flavours of Linux
+    1.Ubuntu
+    2.RedHat
+    3.Centos
+    4.Fedora
+    5.Kali linux
+
+Steps to execute linux commands : user write command,application(on cmd),shell(syntax check),kernal(),hardware
+
+
+Note : 
+    1.It is outer layer of operating system
+    2.Read and check command syntax
+    3.It is interface between user kernal.
+
+Commands of Linux : These are instructions for hardware.
+1.pwd : to check current working directory/folder
+2.ls : list all the files and dir/folders
+3.cd : change dir
+4.mkdir folder_name : make dir/folder
+5.rm : remove file
+6.rmdir : remove dir
+7.cat : to display data inside the file.
+8.clear : to clear terminal
+9.exit : to close or exit
+10.grep : to find text
+11.ps : to listdown all the running proccess
+12.touch : for file creation(Ex : touch print.txt)
+13.cd .. : jump to back
+14.cd ~ : jump to root/home{Have to work on this then navigate toward home dir}
+15.ls -a : Show all filtes either ut us hidden
+16.vi -fileName : to write/edit in file.  ctrl+d = to save file.
+17.Less : display page by page,we can use these command when we have huge data.
+18.more : display page by page,we can use these command when we have huge data.
+19.head : beahves like pagination(Ex: head -6 --> Show top 6 lines only)
+20.tail : beahves like pagination(Ex: tail -5 --> Show bottom 5 lines only)
+    ***************[Ex : cat student.txt | head -6 ]*************************
+
+<!-- ***If we want to delete a directory also their data that is present inside that directory so we use -->
+rmdir -fr dir_Name : *******Here -fr means force recursive delete. 
+
+How to check wheather a object inside the folder is file or dir or any other thing.
+***************[ls -l : long listing]*******
+    if file name is starting from these keyword means : 
+        d : dire
+        - : file
+        l : link file
+        c : character special file
+        b : block file
+        s : socket file
+
+----------------------------------
+Linux file system Hierarchy
+----------------------------------
+1. / topmost dir or root
+2.   
+
+
+
+<!-- Homework for Next Class -->
+goto root directory and research about all files and dir that are present inside this 
+
+
+We are looking to seek knowledge of Linux and Shell Scripting from this class.
+

@@ -1,0 +1,30 @@
+15.ls -a : Show all filtes either ut us hidden
+16.vi -fileName : to write/edit in file.
+17.Less : display page by page,we can use these command when we have huge data.
+18.more : display page by page,we can use these command when we have huge data.
+19.head : beahves like pagination(Ex: head -6 --> Show top 6 lines only)
+20.tail : beahves like pagination(Ex: tail -5 --> Show bottom 5 lines only)
+    ***************[Ex : cat student.txt | head -6 ]*************************
+
+21.Copy &  Paste file command : (cp)
+    Ex : cp dirName whereWeHaveToPaste
+22.copy a file 1 content to  file 2 : (cp sourceFileName destinationFileName)
+        -Here if file 2 have any data that is replaced with file1 data
+
+23.Delete a file data : (> fileName)
+24.file renaming : mv demo.txt emp.txt 
+25.file moving from 1 palace to another : mv emp.txt java/prg/main
+-----Same command is used for both file renaming and moving------
+
+# File Creation Methods : 
+1.Touch :touch a.txt
+2.Cat command : 
+    --this is replacing all texts(cat > newFileName.txt) then write some lines and ctrl+d = to save file.
+    --this is writing below the texts(cat >> newFileName.txt) then write some lines and ctrl+d = to save file.
+    --also show data as with their line number(cat -n a.txt).Also calculate blank line
+    --also show data as with their line number(cat -n a.txt).without calculating blank line
+3.Editors vi,nano,vim
+
+
+    > used for creatingnew file and taking input from user at a time.
+    >>for append data in file.    
